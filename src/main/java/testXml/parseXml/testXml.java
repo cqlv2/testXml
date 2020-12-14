@@ -20,8 +20,16 @@ public class testXml {
 		
 		
 		for (Pays pays : listPays) {
-			System.out.println(pays.getNomPays());
-			System.out.println(pays.getDonneeEconomique().getPib());
+			System.out.println("nom : "+pays.getNomPays());
+			
+			System.out.println("date de relevé : "+pays.getDateReleve());
+			System.out.println("population : "+pays.getDonneeDemographique().getPopulation());
+			System.out.println("taux de fecondité : "+pays.getDonneeDemographique().getFecondite());
+			System.out.println("pib : "+pays.getDonneeEconomique().getPib());
+			System.out.println("monnaie : "+pays.getDonneeEconomique().getMonaie());
+			
+
+			
 		}
 		
 	}
