@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<listePays>
+  <pays>
+    <nomPays>Allemagne</nomPays>
+    <dateReleve dateFormat="dd/MM/yyyy">31/03/2019</dateReleve>
+    <donneeDemographique>
+      <population>82.9</population>
+      <fecondite>1.57</fecondite>
+    </donneeDemographique>
+    <donneeEconomique>
+      <pib>47623</pib>
+      <monaie>Euro</monaie>
+    </donneeEconomique>
+  </pays>
+  <pays>
+    <nomPays>Belgique</nomPays>
+    <dateReleve dateFormat="dd/MM/yyyy">30/06/2019</dateReleve>
+    <donneeDemographique>
+      <population>11.4</population>
+      <fecondite>1.65</fecondite>
+    </donneeDemographique>
+    <donneeEconomique>
+      <pib>47541</pib>
+      <monaie>Euro</monaie>
+    </donneeEconomique>
+  </pays>
+  <pays>
+    <nomPays>Espagne</nomPays>
+    <dateReleve dateFormat="dd/MM/yyyy">30/06/2019</dateReleve>
+    <donneeDemographique>
+      <population>46.7</population>
+      <fecondite>1.31</fecondite>
+    </donneeDemographique>
+    <donneeEconomique>
+      <pib>33350</pib>
+      <monaie>Euro</monaie>
+    </donneeEconomique>
+  </pays>
+  <pays>
+    <nomPays>France</nomPays>
+    <dateReleve dateFormat="dd/MM/yyyy">31/03/2019</dateReleve>
+    <donneeDemographique>
+      <population>67</population>
+      <fecondite>1.9</fecondite>
+    </donneeDemographique>
+    <donneeEconomique>
+      <pib>44317</pib>
+      <monaie>Euro</monaie>
+    </donneeEconomique>
+  </pays>
+  <pays>
+    <nomPays>Italie</nomPays>
+    <dateReleve dateFormat="dd/MM/yyyy">22/12/2018</dateReleve>
+    <donneeDemographique>
+      <population>60.4</population>
+      <fecondite>1.32</fecondite>
+    </donneeDemographique>
+    <donneeEconomique>
+      <pib>35614</pib>
+      <monaie>Euro</monaie>
+    </donneeEconomique>
+  </pays>
+  <pays>
+    <nomPays>Royaume-Uni</nomPays>
+    <dateReleve dateFormat="dd/MM/yyyy">31/01/2019</dateReleve>
+    <donneeDemographique>
+      <population>66.5</population>
+      <fecondite>1.74</fecondite>
+    </donneeDemographique>
+    <donneeEconomique>
+      <pib>43688</pib>
+      <monaie>Livre-stearling</monaie>
+    </donneeEconomique>
+  </pays>
+</listePays>
