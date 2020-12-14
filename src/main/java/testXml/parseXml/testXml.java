@@ -16,16 +16,15 @@ public class testXml {
 		
 		List<Pays> listPays=racine.getListPays();		
 		
-		System.out.println(listPays.size());
 		
 		
 		for (Pays pays : listPays) {
 			System.out.println("nom : "+pays.getNomPays());
 			
 			System.out.println("date de relevé : "+pays.getDateReleve());
-			System.out.println("population : "+pays.getDonneeDemographique().getPopulation());
-			System.out.println("taux de fecondité : "+pays.getDonneeDemographique().getFecondite());
-			System.out.println("pib : "+pays.getDonneeEconomique().getPib());
+			System.out.println("population : "+pays.getDonneeDemographique().getPopulation().getPopulation()+pays.getDonneeDemographique().getPopulation().getUnite());
+			System.out.println("taux de fecondité : "+pays.getDonneeDemographique().getFecondite().getFecondite()+pays.getDonneeDemographique().getFecondite().getUnite());
+			System.out.println("pib : "+pays.getDonneeEconomique().getPib().getPib()+pays.getDonneeEconomique().getPib().getUnite());
 			System.out.println("monnaie : "+pays.getDonneeEconomique().getMonaie());
 			
 

@@ -5,11 +5,11 @@
     <nomPays>Allemagne</nomPays>
     <dateReleve dateFormat="dd/MM/yyyy">31/03/2019</dateReleve>
     <donneeDemographique>
-      <population>82.9</population>
-      <fecondite>1.57</fecondite>
+      <population unite="million">82.9</population>
+      <fecondite unite="enf/femme">1.57</fecondite>
     </donneeDemographique>
     <donneeEconomique>
-      <pib>47623</pib>
+      <pib unite="$/hab">47623</pib>
       <monaie>Euro</monaie>
     </donneeEconomique>
   </pays>
@@ -17,11 +17,11 @@
     <nomPays>Belgique</nomPays>
     <dateReleve dateFormat="dd/MM/yyyy">30/06/2019</dateReleve>
     <donneeDemographique>
-      <population>11.4</population>
-      <fecondite>1.65</fecondite>
+      <population unite="million">11.4</population>
+      <fecondite unite="enf/femme">1.65</fecondite>
     </donneeDemographique>
     <donneeEconomique>
-      <pib>47541</pib>
+      <pib unite="$/hab">47541</pib>
       <monaie>Euro</monaie>
     </donneeEconomique>
   </pays>
@@ -29,11 +29,11 @@
     <nomPays>Espagne</nomPays>
     <dateReleve dateFormat="dd/MM/yyyy">30/06/2019</dateReleve>
     <donneeDemographique>
-      <population>46.7</population>
-      <fecondite>1.31</fecondite>
+      <population unite="million">46.7</population>
+      <fecondite unite="enf/femme">1.31</fecondite>
     </donneeDemographique>
     <donneeEconomique>
-      <pib>33350</pib>
+      <pib unite="$/hab">33350</pib>
       <monaie>Euro</monaie>
     </donneeEconomique>
   </pays>
@@ -41,11 +41,11 @@
     <nomPays>France</nomPays>
     <dateReleve dateFormat="dd/MM/yyyy">31/03/2019</dateReleve>
     <donneeDemographique>
-      <population>67</population>
-      <fecondite>1.9</fecondite>
+      <population unite="million">67</population>
+      <fecondite unite="enf/femme">1.9</fecondite>
     </donneeDemographique>
     <donneeEconomique>
-      <pib>44317</pib>
+      <pib unite="$/hab">44317</pib>
       <monaie>Euro</monaie>
     </donneeEconomique>
   </pays>
@@ -53,11 +53,11 @@
     <nomPays>Italie</nomPays>
     <dateReleve dateFormat="dd/MM/yyyy">22/12/2018</dateReleve>
     <donneeDemographique>
-      <population>60.4</population>
-      <fecondite>1.32</fecondite>
+      <population unite="million">60.4</population>
+      <fecondite unite="enf/femme">1.32</fecondite>
     </donneeDemographique>
     <donneeEconomique>
-      <pib>35614</pib>
+      <pib unite="$/hab">35614</pib>
       <monaie>Euro</monaie>
     </donneeEconomique>
   </pays>
@@ -65,11 +65,11 @@
     <nomPays>Royaume-Uni</nomPays>
     <dateReleve dateFormat="dd/MM/yyyy">31/01/2019</dateReleve>
     <donneeDemographique>
-      <population>66.5</population>
-      <fecondite>1.74</fecondite>
+      <population unite="million">66.5</population>
+      <fecondite unite="enf/femme">1.74</fecondite>
     </donneeDemographique>
     <donneeEconomique>
-      <pib>43688</pib>
+      <pib unite="$/hab">43688</pib>
       <monaie>Livre-stearling</monaie>
     </donneeEconomique>
   </pays>

@@ -11,13 +11,16 @@ import javax.xml.bind.annotation.XmlRootElement;
 public class DonneeEconomique {
 
 	@XmlElement
-	protected int pib;
+	protected Pib pib;
 	@XmlElement
 	protected String monaie;
-	public int getPib() {
+	
+	
+	
+	public Pib getPib() {
 		return pib;
 	}
-	public void setPib(int pib) {
+	public void setPib(Pib pib) {
 		this.pib = pib;
 	}
 	public String getMonaie() {

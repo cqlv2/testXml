@@ -4,26 +4,35 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+
+import com.sun.xml.txw2.annotation.XmlAttribute;
 @XmlAccessorType(XmlAccessType.FIELD)
 
 @XmlRootElement(name = "DonneeDemographique")
 
 public class DonneeDemographique {
-	public double getPopulation() {
+	
+	@XmlElement
+	protected Population population;
+	@XmlElement
+	protected Fecondite fecondite;
+	
+
+	
+	
+	//geteur Setteur
+	public Population getPopulation() {
 		return population;
 	}
-	public void setPopulation(double population) {
+	public void setPopulation(Population population) {
 		this.population = population;
 	}
-	public double getFecondite() {
+	public Fecondite getFecondite() {
 		return fecondite;
 	}
-	public void setFecondite(double fecondite) {
+	public void setFecondite(Fecondite fecondite) {
 		this.fecondite = fecondite;
 	}
-	@XmlElement
-	protected double population;
-	@XmlElement
-	protected double fecondite;
+	
 
 }
