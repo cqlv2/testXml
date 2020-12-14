@@ -15,6 +15,13 @@ public class Pib {
 	@XmlAttribute
 	private String unite;
 
+	// method
+	public String getInfo() {
+		return pib + " " + unite;
+	}
+
+	// geteur Setteur
+
 	public int getPib() {
 		return pib;
 	}

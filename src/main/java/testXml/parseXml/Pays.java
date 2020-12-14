@@ -9,25 +9,21 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-
 @XmlRootElement(name = "pays")
-
 public class Pays {
 
 	@XmlElement
-	protected String nomPays;
-
+	private String nomPays;
 	@XmlElement
 	@XmlJavaTypeAdapter(DateAdapter.class)
-	protected LocalDate dateReleve;
-
+	private LocalDate dateReleve;
 	@XmlElement
-	protected DonneeDemographique donneeDemographique;
+	private DonneeDemographique donneeDemographique;
 	@XmlElement
-	protected DonneeEconomique donneeEconomique;
+	private DonneeEconomique donneeEconomique;
 
-	//getteur setteur
-	
+	// getteur setteur
+
 	public String getNomPays() {
 		return nomPays;
 	}

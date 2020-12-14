@@ -12,15 +12,16 @@ import javax.xml.bind.annotation.XmlValue;
 @XmlRootElement(name = "population")
 public class Population {
 
-	
-	
-	
 	@XmlValue
 	private double population;
 	@XmlAttribute
 	private String unite;
 	
-	//get set
+	//method
+	public String getInfo() {
+		return population+" "+unite;
+	}
+	//geteur Setteur
 	
 	public double getPopulation() {
 		return population;

@@ -6,16 +6,15 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlAccessorType(XmlAccessType.FIELD)
-
 @XmlRootElement(name = "DonneeEconomique")
 public class DonneeEconomique {
 
 	@XmlElement
-	protected Pib pib;
+	private Pib pib;
 	@XmlElement
-	protected String monaie;
+	private String monaie;
 	
-	
+	//geteur Setteur
 	
 	public Pib getPib() {
 		return pib;
