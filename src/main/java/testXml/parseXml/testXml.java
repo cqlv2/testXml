@@ -21,6 +21,7 @@ public class testXml {
 		
 		for (Pays pays : listPays) {
 			System.out.println(pays.getNomPays());
+			System.out.println(pays.getDonneeEconomique().getPib());
 		}
 		
 	}

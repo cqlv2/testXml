@@ -14,5 +14,17 @@ public class DonneeEconomique {
 	protected int pib;
 	@XmlElement
 	protected String monaie;
+	public int getPib() {
+		return pib;
+	}
+	public void setPib(int pib) {
+		this.pib = pib;
+	}
+	public String getMonaie() {
+		return monaie;
+	}
+	public void setMonaie(String monaie) {
+		this.monaie = monaie;
+	}
 
 }
