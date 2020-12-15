@@ -11,12 +11,8 @@ public class testXml {
 	public static void main(String[] args) throws JAXBException {
 		JAXBContext jc=JAXBContext.newInstance(ListePays.class);
 		Unmarshaller unmarch = jc.createUnmarshaller();
-		
 		ListePays racine=(ListePays) unmarch.unmarshal(new File("src/main/resources/tp1.xml"));
-		
 		List<Pays> listPays=racine.getListPays();		
-		
-		
 		
 		for (Pays pays : listPays) {
 			System.out.println("nom : "+pays.getNomPays());
